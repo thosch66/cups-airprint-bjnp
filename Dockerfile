@@ -11,8 +11,7 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
 	python3-cups \
 	python-lxml \
 	cups-backend-bjnp \
-	printer-driver-brlaser \
-	printer-driver-gutenprint
+	printer-driver-brlaser
 
 # This will use port 631
 EXPOSE 631
